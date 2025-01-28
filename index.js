@@ -38,7 +38,7 @@ for (var i = 0; i <= numberOfButtons; i++)
 }
 //var audio = new Audio('./sounds/tom-1.mp3');
 //        audio.play(); 
-document.addEventListener("keydown", function(event){
+document.addEventListener("mouseover", function(event){
      switch (event.key){
             case "w":
                 var tom1 = new Audio('./sounds/tom-1.mp3');
